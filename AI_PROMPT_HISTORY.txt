@@ -1,0 +1,144 @@
+AI PROMPT HISTORY
+=================
+Tool Used: Amazon Q (Claude-based AI assistant in VS Code / IDE)
+Project: Order Tracking Screen — Frontend Assessment
+All prompts are listed in chronological order as sent during this assessment.
+
+--------------------------------------------------------------------------------
+
+PROMPT 1:
+i have tailwind v4 already installed, now i want to install heroui, how do i do that
+
+--------------------------------------------------------------------------------
+
+PROMPT 2:
+i am getting this error when i run npm run dev:
+Module not found: Can't resolve '@heroui/react'
+
+--------------------------------------------------------------------------------
+
+PROMPT 3:
+still getting errors with heroui imports, can you help fix them
+
+--------------------------------------------------------------------------------
+
+PROMPT 4:
+remove the HeroUIProvider since it doesn't exist in the installed version, just use plain layout
+
+--------------------------------------------------------------------------------
+
+PROMPT 5:
+create a navbar with 3 tabs: Delayed, Not Received, No Tracking. make it look like a segmented pill style navbar. use next/navigation usePathname to highlight the active tab. link to /Delayed, /NotReceived, /NotTracking routes
+
+--------------------------------------------------------------------------------
+
+PROMPT 6:
+build a mobile order tracking card component for the "Delayed" state. it should have:
+- indigo header with back arrow, order ID #ORD-847291, and a "Delayed" yellow badge
+- a yellow alert box saying delivery is delayed
+- estimated delivery date and carrier info (FedEx)
+- a delivery progress timeline with steps: Order Placed, Processing, Shipped (active), Out for Delivery, Delivered
+- order summary showing Nike Air Max 270, Black / Size 10, $129.99 with a shoe icon
+- two action buttons: Contact Support and Report Delivery Issue
+use tailwind css, react-icons for icons
+
+--------------------------------------------------------------------------------
+
+PROMPT 7:
+how do i install react-icons
+
+--------------------------------------------------------------------------------
+
+PROMPT 8:
+i am getting import errors for react-icons, it says module not found for the icon imports
+
+--------------------------------------------------------------------------------
+
+PROMPT 9:
+fix the import paths for react-icons, use @react-icons/all-files with individual file imports like @react-icons/all-files/fi/FiArrowLeft
+
+--------------------------------------------------------------------------------
+
+PROMPT 10:
+build a second card component called NotReceivedCard for the "Not Received" state. it should have:
+- indigo header with order ID and a red "Not Received" badge
+- red alert box saying package not received, system marked as delivered Sep 20 but customer didn't receive it
+- delivery info showing delivered date and carrier
+- delivery progress timeline where all 5 steps are complete using FaCircleCheck icons, with the last step (Delivered) highlighted in red
+- same order summary (Nike Air Max 270)
+- two action buttons: "I Didn't Receive My Order" and "Report Missing Package"
+
+--------------------------------------------------------------------------------
+
+PROMPT 11:
+build a third card component called NoTrackingCard for the "No Tracking" state. it should have:
+- indigo header with order ID and a grey "No Tracking" badge
+- grey alert box saying tracking not available yet
+- estimated delivery Sep 25 and carrier TBD
+- an order status checklist with FaCircleCheck for done items and FaRegCircle for pending: Order Confirmed, Payment Processed, Preparing for Shipment (done), Handed to Carrier, Tracking Number Assigned (pending)
+- same order summary
+- three buttons: Contact Support, Notify Me When Shipped (indigo primary), Check Back Later (outline)
+
+--------------------------------------------------------------------------------
+
+PROMPT 12:
+create a ContactSupportModal component that is self-contained with its own useState open/close state. it should render its own trigger button and a fixed overlay modal. accept a label prop that defaults to "Contact Support". the modal should show a message about 24/7 support and a "Got it" close button
+
+--------------------------------------------------------------------------------
+
+PROMPT 13:
+create a DeliveryIssueModal component the same way as ContactSupportModal. self-contained with useState, renders its own trigger button and modal overlay. default label "Report Delivery Issue". modal message says team will investigate with FedEx and follow up within 24 hours
+
+--------------------------------------------------------------------------------
+
+PROMPT 14:
+the modals are being clipped and not showing properly. the card has overflow-hidden which is cutting off the fixed modal
+
+--------------------------------------------------------------------------------
+
+PROMPT 15:
+fix the overflow-hidden clipping issue on NotReceivedCard and NoTrackingCard. remove overflow-hidden from the card container and add rounded-t-2xl to the header div instead so the top corners are still rounded
+
+--------------------------------------------------------------------------------
+
+PROMPT 16:
+create the page routes:
+- src/app/Delayed/page.jsx that renders the Card component centered with bg-zinc-100 background
+- src/app/NotReceived/page.jsx that renders NotReceivedCard
+- src/app/NotTracking/page.jsx that renders NoTrackingCard
+- src/app/page.js that redirects to /Delayed on load using next/navigation redirect
+
+--------------------------------------------------------------------------------
+
+PROMPT 17:
+the root page.js should redirect automatically to /Delayed when someone visits the root URL
+
+--------------------------------------------------------------------------------
+
+PROMPT 18:
+i tried to do a git commit but it said there is a stale .git/index.lock file
+
+--------------------------------------------------------------------------------
+
+PROMPT 19:
+i am in the wrong directory for git, how do i commit from the right folder. the project is at order-tracking-project/order-tracking not order-tracking-project
+
+--------------------------------------------------------------------------------
+
+PROMPT 20:
+https://github.com/RohanJabed/Order-Tracking-Screen here its not showing
+
+--------------------------------------------------------------------------------
+
+PROMPT 21:
+the ContactSupportModal file has a leading space in its filename " ContactSupportModal.jsx", fix the filename and update all imports that reference it
+
+--------------------------------------------------------------------------------
+
+PROMPT 22:
+git push is failing with "No configured push destination", how do i link my local repo to the github remote
+
+--------------------------------------------------------------------------------
+
+PROMPT 23:
+i need to create an AI_PROMPT_HISTORY.txt file for my assessment submission. i used Amazon Q (Claude) as my AI tool for this project. add all the prompts i used for the design and development of this project
