@@ -18,7 +18,7 @@ const ContactSupportModal = ({ label = "Contact Support" }) => {
           <div className="bg-white rounded-2xl shadow-xl px-6 py-6 w-80 flex flex-col gap-4">
             <h2 className="text-base font-bold text-zinc-800">Contact Support</h2>
             <p className="text-sm text-zinc-500">
-              Our support team is available 24/7. You'll be connected to an agent shortly. Average wait time: 2 minutes.
+              Our support team is available 24/7. You will be connected to an agent shortly. Average wait time: 2 minutes.
             </p>
             <button
               onClick={() => setIsOpen(false)}
