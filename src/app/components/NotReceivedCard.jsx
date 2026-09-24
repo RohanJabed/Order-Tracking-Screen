@@ -4,7 +4,7 @@ import { FiArrowLeft } from '@react-icons/all-files/fi/FiArrowLeft';
 import { FiPackage } from '@react-icons/all-files/fi/FiPackage';
 import { GiRunningShoe } from '@react-icons/all-files/gi/GiRunningShoe';
 import { FaCircleCheck } from "react-icons/fa6";
-import ContactSupportModal from './ ContactSupportModal';
+import ContactSupportModal from './ContactSupportModal';
 import DeliveryIssueModal from './DeliveryIssueModal';
 
 const steps = [

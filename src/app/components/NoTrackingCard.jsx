@@ -5,7 +5,7 @@ import { FiSearch } from '@react-icons/all-files/fi/FiSearch';
 import { GiRunningShoe } from '@react-icons/all-files/gi/GiRunningShoe';
 import { FaCircleCheck } from "react-icons/fa6";
 import { FaRegCircle } from "react-icons/fa";
-import ContactSupportModal from './ ContactSupportModal';
+import ContactSupportModal from './ContactSupportModal';
 import DeliveryIssueModal from './DeliveryIssueModal';
 
 const checklist = [
