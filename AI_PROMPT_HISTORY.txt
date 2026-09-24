@@ -21,16 +21,11 @@ add an order summary section at the bottom of the card showing a product icon, p
 --------------------------------------------------------------------------------
 
 PROMPT 4:
-create a segmented pill style navbar with 3 tabs: Delayed, Not Received, No Tracking. the active tab should have an indigo background with white text, inactive tabs should be grey text. the whole navbar should sit inside a white rounded pill container with a light shadow
-
---------------------------------------------------------------------------------
-
-PROMPT 5:
 build a second card for the "Not Received" state. same layout as the first card but with a red badge, red alert box, and all 5 progress steps shown as complete using filled circle check icons. the last step Delivered should be highlighted in red to indicate the issue
 
 --------------------------------------------------------------------------------
 
-PROMPT 6:
+PROMPT 5:
 build a third card for the "No Tracking" state. use a grey badge and grey alert box. replace the progress timeline with a checklist. use filled circle check icons for completed items and empty circle icons for pending items. add two action buttons at the bottom: Notify Me When Shipped in indigo and Check Back Later as an outline button
 
 --------------------------------------------------------------------------------
